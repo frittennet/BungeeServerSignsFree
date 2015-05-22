@@ -1,0 +1,31 @@
+name: BungeeSigns
+version: 1.2
+main: me.Bentipa.BungeeSigns.BSignsMain
+author: Bentipa
+commands:
+
+
+   bsinfo:
+      description: Informations.
+      usage: /<command>
+      permission: BungeeSigns.info
+      
+   bsupdate:
+      description: Update the Plugin.
+      usage: /<command>
+      permission: BungeeSigns.update
+      
+   createBSSign:
+     description: Create a Connection-Sign.
+     usage: /<command>
+     permission: BungeeSigns.create
+     
+   removeBSSign:
+     description: Remove a Connection-Sign.
+     usage: /<command>
+     permission: BungeeSigns.remove
+ 
+   bsreload:
+     description: Reloads the config.
+     usage: /<command>
+     permission: BungeeSigns.reload    

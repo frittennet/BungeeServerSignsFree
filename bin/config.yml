@@ -1,0 +1,2 @@
+# Should the Plugin check if the server is in sign-creation reachable?
+server-alive: true
