@@ -1,5 +1,5 @@
-name: BungeeSigns
-version: 1.2
+name: BungeeSignsPremium
+version: 2.1
 main: me.Bentipa.BungeeSigns.BSignsMain
 author: Bentipa
 commands:
@@ -16,15 +16,15 @@ commands:
       permission: BungeeSigns.update
       
    createBSSign:
-     description: Create a Connection-Sign.
+     description: Create a FreeFight-Connection-Sign.
      usage: /<command>
      permission: BungeeSigns.create
      
    removeBSSign:
-     description: Remove a Connection-Sign.
+     description: Remove a FreeFight-Connection-Sign.
      usage: /<command>
      permission: BungeeSigns.remove
- 
+      
    bsreload:
      description: Reloads the config.
      usage: /<command>
